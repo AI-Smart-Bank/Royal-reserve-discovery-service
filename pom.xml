@@ -57,10 +57,11 @@
         </dependency>
 
         <!--        for connecting to the config sever dependency -->
-        <dependency>
+        <!-- for production on render but to reduce coupling I have hardcoded the properties here so commentiong cinfig server connection -->
+        <!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-client</artifactId>
-        </dependency>
+        </dependency> -->
 
         <!-- JUnit 5 -->
         <dependency>
