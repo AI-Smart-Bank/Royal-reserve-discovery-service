@@ -4,6 +4,7 @@ WORKDIR /app
 COPY target/discovery-server-1.0.jar /app/discovery-server-1.0.jar
 
 EXPOSE 8761
+EXPOSE 10000
 ENTRYPOINT ["java",  "-jar" , "/app/discovery-server-1.0.jar"]
 
 # docker build -t discoveryimg:1 .
